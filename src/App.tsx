@@ -7,6 +7,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import FloatingShapes from "./components/FloatingShapes";
 import "./App.css";
+import Chatbot from "./components/Chatbot";
 
 const App: React.FC = () => {
   return (
@@ -19,6 +20,7 @@ const App: React.FC = () => {
       <Skills />
       <Contact />
       <Footer />
+      <Chatbot />
     </div>
   );
 }
